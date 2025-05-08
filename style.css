@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+.navbar{
+    background-color: rgb(239, 237, 237);
+    color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+}
+.navbar-brand img{
+    width: 350px;
+    height: 100px;
+    margin-left: 750px;
+}
+
+.parrafos{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+}
+.carousel-inner{
+    width: 100%;
+    height: 770px;
+}
+.gridContenedor{
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3px;
+    margin-top: 3px;
+}
+.gridContenedor div img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.gridItems{
+    box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    
+}
+.imagenesParrafo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.imagenesParrafo a{
+    color: white;
+    text-decoration: none;
+}
+.imagenesParrafo img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.botonLlevame{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*---------------------------------------------------------------------------*/
+.fondoMediano{
+    background: rgb(33,11,168);
+    background: radial-gradient(circle, rgba(33,11,168,1) 0%, rgba(38,33,84,1) 100%);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondoMediano h2{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+    font-size: 40px;
+}
+.paginaContacto{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 500px;
+    margin-left: 200px;
+    box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+}
+.imagenLocal{
+    height: 350px;
+    width: 500px;
+    box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+}
+.parrafoImagen{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+    width: 500px;
+    margin-right: 100px;
+}
+.parrafoImagen img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.parrafoImagen a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.paginaEnvios{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 500px;
+    margin-left: 200px;
+    border: 1px solid black;
+    box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+}
+.metodosDePago{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+    width: 500px;
+    margin-right: 100px;
+}
+.metodosDePago img{
+    width: 450px;
+    height: 300px;
+}
+.envios{
+        font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+    width: 500px;
+    margin-right: 100px;
+}
+.envios img{
+    width: 450px;
+    height: 300px;
+    margin-left: 100px;
+}
+/*------------------------------------------------------------------------------*/
+.paginaAyuda{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: auto;
+    margin-left: 200px;
+    border: 1px solid black;
+    box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 0px 26px 4px rgba(0,0,0,0.5);
+}
+.informacion{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+    width: 75%;
+    margin-top: 100px;
+}
+.informacion h3{
+    color: rgb(33,11,168);
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+.piePagina{
+    background-color: rgb(211, 208, 208);
+    height: 350px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold 700;
+}
+.envios-Pagos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.envios-Pagos img{
+    width: 80px;
+    height: 80px;
+}
+.envios-Pagos div{
+    margin: 20px;
+}
+.envios-Pagos hr{
+    height: 60px;
+    width:3px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+    margin: 0px 150px 0px 150px;
+}
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redesSociales img{
+    height: 50px;
+    width: 50px;
+    margin: 35px;
+}
+.finalPie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finalPie a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 45%;
+}
+.finalPie p{
+    margin-top: 50px;
+}
+
+
